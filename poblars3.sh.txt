@@ -1,0 +1,2 @@
+curl -l -o datos-covid.csv https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
+aws s3 cp datos-covid.csv s3://bucketpruebabigdata/RAW/datos-covid.csv
